@@ -1,0 +1,182 @@
+.p-datatable .p-datatable-header {
+    padding: 0 0 1rem;
+}
+.p-inputtext {
+    background: var(--kt-input-solid-bg);
+}
+.p-paginator .p-paginator-current {
+    margin-inline-start: auto;
+}
+.p-checkbox .p-checkbox-box {
+    border: 0;
+    background-color: var(--kt-form-check-input-bg-solid);
+    border-radius: 0.45em;
+}
+.p-paginator {
+    border-bottom: 0;
+}
+.p-dropdown {
+    background-color: var(--kt-input-solid-bg);
+    border-color: var(--kt-input-solid-bg);
+}
+.p-paginator .p-dropdown {
+    height: 2.5rem;
+    .p-dropdown-trigger-icon {
+        font-size: 10px;
+        padding-top: 0.2rem;
+    }
+}
+.accordion-arrow-icon {
+    transition: all ease-in-out 0.3s;
+    transform: rotate(0deg);
+}
+[aria-expanded='true'] .accordion-arrow-icon {
+    transform: rotate(180deg);
+}
+.accordion-arrow-icon.svg-icon {
+    color: var(--kt-headings-color);
+}
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: left;
+}
+.swal2-popup .swal2-html-container,
+.swal2-popup .swal2-content {
+    margin-top: 0.5rem;
+}
+.show-header-select {
+    .p-multiselect-label-container {
+        display: none;
+    }
+    .p-multiselect-trigger-icon {
+        display: none;
+    }
+    .p-multiselect {
+        height: 40px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23ccc'%3E%3Cpath d='M7 6.59998V20C7 20.6 7.4 21 8 21C8.6 21 9 20.6 9 20V6.59998H7ZM15 17.4V4C15 3.4 15.4 3 16 3C16.6 3 17 3.4 17 4V17.4H15Z' fill='%23009ef7'/%3E%3Cpath opacity='0.3' d='M3 6.59999H13L8.7 2.3C8.3 1.9 7.7 1.9 7.3 2.3L3 6.59999ZM11 17.4H21L16.7 21.7C16.3 22.1 15.7 22.1 15.3 21.7L11 17.4Z' fill='%23009ef7'/%3E%3C/svg%3E");
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+.field {
+    label {
+        margin-bottom: 5px;
+    }
+    .p-component {
+        background-color: var(--kt-input-solid-bg);
+        border-color: var(--kt-input-solid-bg);
+    }
+    .p-inputtext {
+        border-radius: 0.475rem;
+        padding: 0.8rem 0.7rem;
+    }
+    .p-dropdown {
+        border-radius: 0.475rem;
+    }
+    .p-inputtext:enabled:focus,
+    .p-dropdown:not(.p-disabled).p-focus {
+        box-shadow: none;
+    }
+}
+
+.menu-item .menu-link .menu-bullet {
+    width: 0.25rem;
+}
+.p-fileupload .p-fileupload-content,.p-fileupload .p-fileupload-buttonbar{
+    background-color: var(--kt-input-solid-bg);
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus{
+    box-shadow: none;
+}
+.p-tabview .p-tabview-panels{
+    padding-left: 0;
+    padding-right: 0;
+}
+.p-inputtext.p-invalid.p-component,.p-dropdown.p-invalid.p-component,.p-calendar.p-invalid.p-component > .p-inputtext,
+.p-multiselect.p-invalid.p-component{
+    border-color: var(--kt-danger);
+}
+.p-error{
+    color: var(--kt-danger);
+}
+input:-webkit-autofill,input:-webkit-autofill:focus,input:-internal-autofill-selected ,.dropzone{
+    background-color: var(--kt-input-solid-bg) !important;
+}
+
+html[dir=rtl] .p-datepicker-header .pi{
+    transform: scaleX(-1);
+}
+.p-datatable .p-datatable-tbody > tr > td{
+    padding: 0.7rem 1rem;
+}
+.my-datatable{
+    table{
+        .p-datatable-thead {
+            tr {
+                th{
+                    &:last-child{
+                        width: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+.p-checkbox .p-checkbox-box .p-checkbox-icon{
+    color: var(--kt-headings-color);
+}
+.img-prev-box{
+    position: relative;
+    max-width: 120px;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        max-width: 90%;
+        max-height: 110px;
+        height: auto;
+        width: auto;
+    }
+    .delete-img-prev{
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    padding-top: 0 !important;
+}
+.p-multiselect{
+    padding: 0.3rem 0.1rem;
+}
+.p-button{
+    border-radius: 6px;
+}
+.p-calendar{
+    border-radius: 0.475rem;
+}
+.p-tabview .p-tabview-nav{
+    border: 1px solid var(--kt-card-border-color);
+    border-width: 0 0 1px 0;
+}
+.field{
+    margin-bottom: 1.2rem;
+}
+.p-tabview .p-tabview-panels{
+    padding-bottom: 0;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    margin: 0 0 -1px 0;
+}
+.p-fileupload-content{
+    height: 138px;
+}
+.p-fileupload .p-fileupload-buttonbar{
+    border-top-right-radius: 0.475rem;
+    border-top-left-radius: 0.475rem;
+}
+.p-fileupload .p-fileupload-content{
+    border-bottom-right-radius: 0.475rem;
+    border-bottom-left-radius: 0.475rem;
+}
